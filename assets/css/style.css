@@ -1,2 +1,155 @@
 /* Verwende auch Media Querys um eine mobile Version zu erstellen! */
 /* font-family: 'Roboto', sans-serif; */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.section-intro {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url("../img/ilustracion_people.png"), url("../img/ilustracion1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+}
+#header-top {
+    font-size: 2em;
+}
+#header-middle {
+    font-size: 3em;
+}
+#header-top{
+    padding-left: 10%;
+}
+#header-top span{
+    display: block;
+    font-size: 12px;
+}
+#header-middle{
+    margin-top: 150px;
+    padding-left: 10%;
+    width: 400px;
+}
+.section-intro p{
+    padding-left: 10%; 
+    width: 400px;
+    margin-bottom: 40px;
+}
+.section-intro p img{
+    
+    height: 30px;
+}
+.section-intro a{
+    padding-left: 10%;
+    text-decoration: none;
+    color:#ff3571;
+    font-size: 12px;
+}
+
+.section-gallery{
+    height: 100vh;
+    margin: 150px 0;
+}
+.section-gallery img{
+    width: 100%;
+}
+.section-idea{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-idea h2{
+    padding: 30px;
+    font-size: 3em;
+}
+.section-idea h2 img{
+    height: 30px;
+}
+.section-idea p{
+    width: 50%;
+    padding: 30px;
+    font-weight: 300;
+    line-height: 1.7;
+    color:#0b0c17;
+}
+.several{
+    margin: 100px 0;
+    padding-left: 10%;
+    font-size: 3em;
+    width: 600px;
+}
+
+.section-lessons{
+    display: flex;
+    justify-content: space-evenly;
+}
+article{
+    display: flex;
+}
+.text {
+    width: 25vw;
+}
+.bild {
+    width: 20px;
+}
+
+.ready {
+    width: 40vw;
+    margin: 70px auto;
+    text-align: center;
+}
+.ready h2{
+    font-size: 3em;
+}
+
+.section-middle {
+    display: flex;
+    justify-content: space-evenly;
+}
+.bild-section {
+    width: 40vw;
+}
+.text-section {
+    width: 40vw;
+}
+.text-section  h3 {
+    font-size: 3em;
+    color: #dddddd;
+}
+
+footer {
+    width: 40vw;
+    margin: 70px auto;
+    text-align: center;
+}
+footer h2{
+    font-size: 3em;
+}
+[type="email"] {
+    width: 30vw;
+    height: 4vh;
+    text-align: center;
+    margin-bottom: 10px;
+}
+[type="button"] {
+    background-color: #ff3571;
+    color: white;
+    border-radius: 5px;
+    width: 15vw;
+    height: 6vh;
+}
+#credit {
+    font-size: 0.7em;
+    margin-left: 50px;
+}
+#credit img {
+    width: 20px;
+}
